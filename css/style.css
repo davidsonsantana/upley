@@ -1,3 +1,278 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
 body{
-  
+  background: url(../images/bg.gif);
+  border-top: 8px solid #ffb900;
 }
+
+
+
+.topbar{
+	height: 90px;
+	position: relative;
+}
+
+.topbar h1{
+	width: 249px;
+	height: 192px;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.topbar h1 img{
+	width: 100%;
+	height: auto;
+}
+
+.topbar .social{
+	margin-top: 20px;
+	float: right;
+}
+
+.topbar .social span{
+	margin: 10px 10px 0 0;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #f58e85;
+}
+
+.topbar .social a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: #f58e85;
+	color: #fff;
+	border-radius: 40px;
+	text-align: center;
+}
+
+.topbar .social a i{
+	font-size: 25px;
+	color: #fff;
+	line-height: 42px;
+}
+
+
+.navbar{
+	margin-bottom: 0;
+	background: url(../images/bg-menu.gif) repeat-x;
+	border: none;
+	border-radius: 0;
+}
+
+.nav > li > a{
+	padding: 22px 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #f2f2f2;
+}
+
+.nav > li > a:hover{
+	background: none;
+	color: #ffb900;
+}
+
+
+
+
+section h2{
+	color: #f58e85;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section h2 span{
+	display: block;
+	font-size: 28px;
+}
+
+
+.about{
+	margin-bottom: 50px;
+}
+
+.about h2{
+	font-size: 80px;
+}
+
+
+
+.instagram{
+	height: 600px;
+}
+
+.instagram .text-center i{
+	font-size: 45px;
+	color: #f58e85;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+
+}
+
+.instagram h2{
+	margin-top: 0;
+	font-size: 48px;
+	position: relative;
+}
+
+.instagram h2:before{
+	width: 150px;
+	height: 1px;
+	display: block;
+	background: #f58e85;
+	content: "";
+	position: absolute;
+    left: 22%;
+    bottom: 25px;
+}
+
+.instagram h2:after{
+	width: 150px;
+	height: 1px;
+	display: block;
+	background: #f58e85;
+	content: "";
+	position: absolute;
+    right: 22%;
+    bottom: 25px;
+}
+
+
+.instagram ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.instagram ul li{
+	margin-bottom: 25px;
+}
+
+.instagram .btn{
+	width: 280px;
+	padding: 10px 0;
+	margin: 20px auto;
+	display: block;
+	background: #f58e85;
+	color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	box-shadow: 0 2px 0 #c4697a;
+}
+
+
+
+
+
+
+footer{
+	padding: 15px 0 0;
+	margin-top: 150px;
+	background: #61b8ab;
+}
+
+footer ul{
+	margin: 0 0 20px -15px;
+	padding: 0;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li a{
+	padding: 10px 15px;
+	display: inline-block;
+	color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+footer ul li a:hover{
+	color: #ffb900;
+	text-decoration: none;
+}
+
+footer .infos{
+	color: #f2f2f2;
+}
+
+footer .infos i{
+	margin: 0 20px 0 0;
+	float: left;
+	font-size: 45px;
+}
+
+footer .infos h6{
+	margin: 0 0 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+footer .infos p{
+	display: inline-block;
+}
+
+footer .facebook{
+	padding: 5px;
+	margin-top: -30px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+
+
+
+footer .sign{
+	margin-top: 30px;
+	background: #43978a;
+}
+
+footer .sign{
+	padding: 16px 0;
+	color: #b2cfca;
+	font-size: 11px;
+}
+
+footer .sign p{
+	margin: 0;
+	float: left;
+}
+
+footer .sign p.dev{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
